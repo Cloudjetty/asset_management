@@ -1,0 +1,11 @@
+<aura:component implements="force:hasRecordId,force:hasSObjectName,force:lightningQuickActionWithoutHeader">
+    <aura:html tag="style">
+        .slds-modal__content {
+            height:unset !important;
+            max-height:unset !important;
+            overflow: visible;
+        }
+    </aura:html>
+
+    <c:closePurchaseOrder recordId="{!v.recordId}" onclose="{!c.handleClose}" />
+</aura:component>

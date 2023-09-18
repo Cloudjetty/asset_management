@@ -22,7 +22,9 @@ public with sharing class PurchaseOrderService {
 
         update purchaseOrder;
 
-        this.generateAssetsFromPurchaseOrderItems(purchaseOrderId);
+        if (closedReason == 'Purchased') {
+            this.generateAssetsFromPurchaseOrderItems(purchaseOrderId);
+        } 
     }
 
     private PurchaseOrder__c buildPurchaseOrder() {

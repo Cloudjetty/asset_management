@@ -1,0 +1,35 @@
+<template>
+    <div class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+            <header class="slds-modal__header inner">
+                <h2 class="title slds-text-heading_medium slds-hyphenate">
+                    Close This Purchase Order
+                </h2>
+            </header>
+
+            <div class="slds-modal__content slds-var-p-around_medium">
+                <div class="slds-col slds-var-p-around_medium">
+                    <lightning-combobox name="close"
+                                        label="Close Reason"
+                                        placeholder="-Select-"
+                                        options={columns}
+                                        onchange={handleChange}
+                                        required>
+                    </lightning-combobox>
+                </div>
+            </div>
+
+            <div class="slds-modal__footer">
+                <lightning-button label="Cancel" 
+                                  class='slds-var-m-around_medium'
+                                  onclick={handleClose}>
+                </lightning-button>
+                <lightning-button label="Save" 
+                                  type='save' 
+                                  variant="brand"
+                                  onclick={handleClosePurchaseOrder}>
+                </lightning-button>
+            </div>
+        </div>
+    </div>
+</template>
