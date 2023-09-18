@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>PurchaseOrderClosed</fullName>
+        <fullName>PurchaseOrderSupplierItemsAreMissing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Purchase Order Supplier Items Are Missing</shortDescription>
+        <value>Purchase Order Supplier Items Are Missing</value>
+    </labels>
+    <labels>
+        <fullName>SynchronizedSuppliers</fullName>
         <categories>UI</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>Purchase Order Closed</shortDescription>
-        <value>Purchase Order successfully closed</value>
+        <shortDescription>Synchronized Suppliers</shortDescription>
+        <value>Successful Supplier Synchronization</value>
     </labels>
 </CustomLabels>

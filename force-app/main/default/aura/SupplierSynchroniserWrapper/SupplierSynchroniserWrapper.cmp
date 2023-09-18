@@ -1,0 +1,3 @@
+<aura:component implements="force:hasRecordId,force:hasSObjectName,force:lightningQuickActionWithoutHeader">
+    <c:syncSupplier recordId="{!v.recordId}" onclose="{!c.handleClose}"/>
+</aura:component>

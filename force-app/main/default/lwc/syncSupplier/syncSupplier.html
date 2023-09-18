@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-modal__content">
+        <div class="slds-is-relative">
+            <template if:true={showSpinner}>
+                <lightning-spinner alternative-text="Loading" 
+                                   size="medium" 
+                                   variant="brand">
+                </lightning-spinner>
+            </template>
+        </div>
+    </div>
+</template>
