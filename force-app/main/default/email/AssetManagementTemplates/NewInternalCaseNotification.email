@@ -1,0 +1,5 @@
+Hi Asset Managers team,<br/><br/>
+new internal case was created - <a href="{!Case.Link}">{!Case.CaseNumber}</a><br/><br/>
+Please check and process an appropriate case.<br/><br/>
+Best regards,<br/>
+CloudjettyAutomation

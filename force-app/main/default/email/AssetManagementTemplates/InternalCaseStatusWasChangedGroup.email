@@ -1,0 +1,4 @@
+Hi Asset Managers team,<br/><br/>
+case <a href="{!Case.Link}">{!Case.CaseNumber}</a> status was changed.<br/><br/>
+Best regards,<br/>
+Cloudjetty automation
