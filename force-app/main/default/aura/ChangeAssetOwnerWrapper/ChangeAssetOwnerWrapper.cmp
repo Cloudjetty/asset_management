@@ -1,0 +1,12 @@
+<aura:component implements="force:hasRecordId,force:hasSObjectName,force:lightningQuickActionWithoutHeader">
+    <aura:html tag="style">
+        .slds-modal__content {
+            height:unset !important;
+            max-height:unset !important;
+        }
+    </aura:html>
+    
+    <div class="slds-p-around--medium modal">
+        <c:changeAssetOwner recordId="{!v.recordId}" onclose="{!c.handleClose}" />
+    </div>
+</aura:component>

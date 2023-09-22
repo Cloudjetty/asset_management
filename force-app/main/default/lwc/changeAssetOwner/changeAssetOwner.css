@@ -1,0 +1,12 @@
+.slds-modal {
+    width: 100%;
+}
+
+.slds-modal__container {
+    width: 100%;
+}
+
+.slds-col {
+    overflow-y: auto;
+    min-height: 10rem;
+}
